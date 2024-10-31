@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+header.hero {
+    background-color: #6c63ff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+h2 {
+    margin-bottom: 10px;
+    color: #6c63ff;
+}
+
+.project, .experience-item {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-left: 4px solid #6c63ff;
+    background: #f9f9f9;
+    border-radius: 5px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: #6c63ff;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+    margin-top: 20px;
+}
